@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":["ReactDOM","render"],"mappings":";;AAAA;;AAEAA,gBAASC,MAAT","sourcesContent":["import { ReactDOM } from \"react\";\r\n\r\nReactDOM.render(\r\n    \r\n)"],"file":"index.dev.js"}
