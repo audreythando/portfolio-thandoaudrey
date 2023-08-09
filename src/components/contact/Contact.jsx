@@ -39,18 +39,18 @@ const submitHandler=(event)=>{
             <MdOutlineEmail className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>audreythando@gmail.com</h5>
-            <a href="mailto:audreythando@gmail.com" target="_blank">Send a message</a>
+            <a href="mailto:audreythando@gmail.com" target="_blank" rel='noreferrer'>Send a message</a>
           </article>
           <article className="contact__option">
             <RiMessengerLine className='contact__option-icon'/>
             <h4>Messenger</h4>
-            <a href="https://m.me/audrey_alfred" target="_blank">Send a message</a>
+            <a href="https://m.me/audrey_alfred" target="_blank"  rel='noreferrer'>Send a message</a>
           </article>
           <article className="contact__option">
             <BsWhatsapp className='contact__option-icon'/>
             <h4>WhatsApp</h4>
             <h5>+27833968026</h5>
-            <a href="https://api.whatsapp.com/send?phone=+27833968026" target="_blank">Send a message</a>
+            <a href="https://api.whatsapp.com/send?phone=+27833968026" target="_blank"  rel='noreferrer'>Send a message</a>
           </article>
         </div>
         {/* END OF CONTACT OPTIONS */}
