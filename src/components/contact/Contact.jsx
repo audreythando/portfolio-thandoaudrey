@@ -1,22 +1,32 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
 import {RiMessengerLine} from 'react-icons/ri'
 import {BsWhatsapp} from 'react-icons/bs'
-import { useRef } from 'react';
-import emailjs from '@emailjs/browser'
+
+
 
 
 const Contact = () => {
-  const form = useRef();
+  const [formState, setFormState]= useState({});
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+  const changeHandler =(event) => {
+    setFormState({...formState, [event.target.name]: event.target.value});
+  }
 
-    emailjs.sendForm('service_yju1dz3', 'template_kzs9z3d', form.current, '2_umqCEZqmp72koeH')
-
-    e.target.reset()
-  };
+const submitHandler=(event)=>{
+  event.preventDefault();
+  const config={
+    SecureToken:'53db5a68-64dc-4d1a-bee1-1e2bbf0349d8',
+    To : 'audreythando@gmail.com',
+    From : formState.email,
+    Subject : "This is from my contact form",
+    Body : `${formState.name} connected to you over email`
+  }
+  if(window.Email){
+    window.Email.send(config).then(()=> alert('email sent successfully'))
+  }
+}
 
   return (
     <section id='contact'>
@@ -44,10 +54,10 @@ const Contact = () => {
           </article>
         </div>
         {/* END OF CONTACT OPTIONS */}
-        <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name='name' placeholder='Your Full Name' required />
-          <input type="email" name='email' placeholder='Your Email' required />
-          <textarea name="message" rows="7" placeholder='Your Message' required ></textarea>
+        <form onSubmit={submitHandler} >
+          <input type="text" name='name' placeholder='Your Full Name' value={formState.name || ""} onChange={changeHandler}required />
+          <input type="email" name='email' placeholder='Your Email' value={formState.email || ""} onChange={changeHandler} required />
+          <textarea name="message" rows="7" placeholder='Your Message' value={formState.message || ""} onChange={changeHandler}required ></textarea>
           <button type='submit' className='btn btn-primary'>Send Message</button>
         </form>
       </div>
