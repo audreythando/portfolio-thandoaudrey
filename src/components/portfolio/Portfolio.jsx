@@ -2,7 +2,7 @@ import React from 'react'
 import './Portfolio.css'
 import IMG1 from '../../assets/portfolio-img1.png'
 import IMG2 from '../../assets/portfolio-img2.png'
-import IMG3 from '../../assets/portfolio3.jpg'
+import IMG3 from '../../assets/portfolio-img3.png'
 
 
 // DO NOT USE THE IMAGES IN PRODUCTION
@@ -26,9 +26,9 @@ const data = [
   {
     id: 3,
     image: IMG3,
-    title: 'Figma dashboard UI kit for data design web apps',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/17290917-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps'
+    title: 'AI Image Generating App',
+    github: 'https://github.com/audreythando/ai-app',
+    demo: 'https://ai-app-nine.vercel.app/'
   },
 ]
 
