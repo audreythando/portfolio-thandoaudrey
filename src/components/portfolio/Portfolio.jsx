@@ -1,6 +1,6 @@
 import React from 'react'
 import './Portfolio.css'
-import IMG1 from '../../assets/portfolio-img1.png'
+import IMG1 from '../../assets/portfolio-img.png'
 import IMG2 from '../../assets/portfolio-img2.png'
 import IMG3 from '../../assets/portfolio-img3.png'
 
@@ -11,9 +11,9 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Portfolio Website',
-    github: 'https://github.com/audreythando/portfolio-thandoaudrey',
-    demo: 'https://portfolio-thandoaudrey-ciuo.vercel.app/'
+    title: 'Credit Card System',
+    github: 'https://github.com/audreythando/credit-card-system',
+    demo: 'https://credit-card-system-seven.vercel.app/'
    
   },
   {
