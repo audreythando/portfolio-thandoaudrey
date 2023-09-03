@@ -20,7 +20,7 @@ const About = () => {
 
 
 <p>
-I am a frontend developer specializing in React. I have a passion for building visually appealing and user-friendly web applications that deliver an exceptional user experience. My skills include React, JavaScript/TypeScript, HTML, CSS, and a strong understanding of web development principles. I am constantly learning and adapting to new technologies to stay up-to-date with industry trends. I am a team player and I am able to work effectively with both technical and non-technical stakeholders. I am always looking for new opportunities to challenge myself and improve my skills.
+I am a frontend developer specializing in React. I have a passion for building visually appealing and user-friendly web applications that deliver an exceptional user experience. My skills include React, JavaScript/TypeScript, HTML, CSS, and a strong understanding of web development principles. I am currently learning C# and l am constantly learning and adapting to new technologies to stay up-to-date with industry trends. I am a team player and I am able to work effectively with both technical and non-technical stakeholders. I am always looking for new opportunities to challenge myself and improve my skills.
 </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
