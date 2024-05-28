@@ -18,17 +18,17 @@ const data = [
   },
   {
     id: 2,
+    image: IMG3,
+    title: 'AI Image Generating App',
+    github: 'https://github.com/audreythando/mern-dreyai-image-generating-app',
+    demo: 'https://mern-dreyai-image-generating-app.vercel.app/'
+  },
+  {
+    id: 3,
     image: IMG2,
     title: 'Hey Sis,GBV victims safe place',
     github: 'https://github.com/audreythando/heyy-sis',
     demo: 'https://heyy-sis-audreythando.vercel.app/'
-  },
-  {
-    id: 3,
-    image: IMG3,
-    title: 'AI Image Generating App',
-    github: 'https://github.com/audreythando/ai-app',
-    demo: 'https://ai-app-nine.vercel.app/'
   },
 ]
 
