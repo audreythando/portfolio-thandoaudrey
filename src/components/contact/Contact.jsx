@@ -53,7 +53,6 @@ const submitHandler=(event)=>{
             <a href="https://api.whatsapp.com/send?phone=+27833968026" target="_blank"  rel='noreferrer'>Send a message</a>
           </article>
         </div>
-        {/* END OF CONTACT OPTIONS */}
         <form onSubmit={submitHandler} >
           <input type="text" name='name' placeholder='Your Full Name' value={formState.name || ""} onChange={changeHandler}required />
           <input type="email" name='email' placeholder='Your Email' value={formState.email || ""} onChange={changeHandler} required />

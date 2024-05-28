@@ -5,8 +5,6 @@ import IMG2 from '../../assets/portfolio-img2.png'
 import IMG3 from '../../assets/portfolio-img3.png'
 
 
-// DO NOT USE THE IMAGES IN PRODUCTION
-
 const data = [
   {
     id: 1,
@@ -26,7 +24,7 @@ const data = [
   {
     id: 3,
     image: IMG2,
-    title: 'Hey Sis,GBV victims safe place',
+    title: 'Hey Sis, GBV victims ChatApp',
     github: 'https://github.com/audreythando/heyy-sis',
     demo: 'https://heyy-sis-audreythando.vercel.app/'
   },
