@@ -1,6 +1,3 @@
-Here's an updated README with emojis:
-
----
 
 # 🌟 Portfolio - Audrey Thando 🌟
 
@@ -30,19 +27,19 @@ Welcome to Audrey Thando's personal portfolio website! This site showcases proje
     ```
 3. Install the dependencies:
     ```bash
-    npm install
+    yarn install
     ```
 
 ## Usage 🚀
 To start the development server, run:
 ```bash
-npm start
+yarn start
 ```
 This will open the app in your browser at `http://localhost:3000`.
 
 To create a production build, run:
 ```bash
-npm run build
+yarn run build
 ```
 
 ## Features ✨
@@ -57,7 +54,7 @@ npm run build
 - CSS for styling 🎨
 
 ## Configuration ⚙️
-This project does not require any special configuration. Ensure all dependencies are installed via `npm install`.
+This project does not require any special configuration. Ensure all dependencies are installed via `yarn install`.
 
 ## Examples 🌐
 Visit the live site: [Audrey Thando's Portfolio](https://portfolio-thandoaudrey.vercel.app/)
