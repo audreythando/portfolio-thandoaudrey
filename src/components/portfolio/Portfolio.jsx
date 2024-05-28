@@ -26,7 +26,7 @@ const data = [
   {
     id: 3,
     image: IMG2,
-    title: 'Hey Sis,GBV victims safe place',
+    title: 'Hey Sis, GBV victims ChatApp',
     github: 'https://github.com/audreythando/heyy-sis',
     demo: 'https://heyy-sis-audreythando.vercel.app/'
   },
